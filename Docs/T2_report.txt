@@ -1,0 +1,5 @@
+﻿During  last 2 weeks me manged to create, our project and group on GITLAB, main loop with board creation, Amazons placement and common flowchart.
+Mateusz Jakubowski – creation of the gitlab project, common flowchart
+Tymon Żarski - creation of the gitlab project,Source code
+Janek Szachno – Source code, gitignore
+Cagla Kuleasan- Help with source code and common flowchart

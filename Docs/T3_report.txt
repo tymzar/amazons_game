@@ -1,0 +1,7 @@
+Since the previous tutorials we managed to add additional comments to our code to make it easier to read and understand.
+Moreover we updated our flowchart and README file.
+Additionally we made an overall checkup of code in search of mistakes and possibilites of improvements.
+Mateusz Jakubowski – Code checkup, Fixing flowcharts
+Tymon Żarski - Updating README, Makefile
+Janek Szachno – Meeting report
+Cagla Kuleasan- Additional comments

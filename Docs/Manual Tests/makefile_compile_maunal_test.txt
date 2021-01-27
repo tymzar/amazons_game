@@ -1,0 +1,17 @@
+$ make interactive && make clean
+gcc -c -o main_interactive.o main_interactive.c -I.
+gcc -c -o Libavailable.o Libavailable.c -I.
+gcc -c -o Libinteractive.o Libinteractive.c -I.
+gcc -c -o Libmovement.o Libmovement.c -I.
+gcc -o interactive main_interactive.o Libavailable.o Libinteractive.o Libmovement.o -I.
+rm -f *.o *~
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ make autonomous && make clean
+gcc -c -o main_autonomous.o main_autonomous.c -I.
+gcc -c -o board.o board.c -I.
+gcc -c -o file_parser.o file_parser.c -I.
+gcc -c -o game.o game.c -I.
+gcc -c -o cli_parser.o cli_parser.c -I.
+gcc -o autonomous main_autonomous.o board.o file_parser.o game.o cli_parser.o -I.
+rm -f *.o *~

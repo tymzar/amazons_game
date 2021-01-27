@@ -1,0 +1,225 @@
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ make autonomous && make clean
+gcc -c -o main_autonomous.o main_autonomous.c -I.
+gcc -c -o board.o board.c -I.
+gcc -c -o file_parser.o file_parser.c -I.
+gcc -c -o game.o game.c -I.
+gcc -c -o cli_parser.o cli_parser.c -I.
+gcc -o autonomous main_autonomous.o board.o file_parser.o game.o cli_parser.o -I.
+rm -f *.o *~
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons:
+Position x:7, y:6
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ make autonomous && make clean
+gcc -c -o main_autonomous.o main_autonomous.c -I.
+gcc -c -o board.o board.c -I.
+gcc -c -o file_parser.o file_parser.c -I.
+gcc -c -o game.o game.c -I.
+gcc -c -o cli_parser.o cli_parser.c -I.
+gcc -o autonomous main_autonomous.o board.o file_parser.o game.o cli_parser.o -I.
+rm -f *.o *~
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons:
+Position x:7, y:6
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ make autonomous && make clean
+gcc -c -o main_autonomous.o main_autonomous.c -I.
+main_autonomous.c: In function 'main':
+main_autonomous.c:143:16: error: 'sec' undeclared (first use in this function); did you mean 'getc'?
+         }while(sec->artifact == HORSE);
+                ^~~
+                getc
+main_autonomous.c:143:16: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make: *** [makefile:11: main_autonomous.o] Error 1
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ make autonomous && make clean
+gcc -c -o main_autonomous.o main_autonomous.c -I.
+gcc -c -o board.o board.c -I.
+gcc -c -o file_parser.o file_parser.c -I.
+gcc -c -o game.o game.c -I.
+gcc -c -o cli_parser.o cli_parser.c -I.
+gcc -o autonomous main_autonomous.o board.o file_parser.o game.o cli_parser.o -I.
+rm -f *.o *~
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:7, y:6
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:7, y:6
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ make autonomous && make clean
+gcc -c -o main_autonomous.o main_autonomous.c -I.
+gcc -c -o board.o board.c -I.
+gcc -c -o file_parser.o file_parser.c -I.
+gcc -c -o game.o game.c -I.
+gcc -c -o cli_parser.o cli_parser.c -I.
+gcc -o autonomous main_autonomous.o board.o file_parser.o game.o cli_parser.o -I.
+rm -f *.o *~
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ make autonomous && make clean
+gcc -c -o main_autonomous.o main_autonomous.c -I.
+gcc -c -o board.o board.c -I.
+gcc -c -o file_parser.o file_parser.c -I.
+gcc -c -o game.o game.c -I.
+gcc -c -o cli_parser.o cli_parser.c -I.
+gcc -o autonomous main_autonomous.o board.o file_parser.o game.o cli_parser.o -I.
+rm -f *.o *~
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ make autonomous && make clean
+gcc -c -o main_autonomous.o main_autonomous.c -I.
+gcc -c -o board.o board.c -I.
+gcc -c -o file_parser.o file_parser.c -I.
+gcc -c -o game.o game.c -I.
+gcc -c -o cli_parser.o cli_parser.c -I.
+gcc -o autonomous main_autonomous.o board.o file_parser.o game.o cli_parser.o -I.
+rm -f *.o *~
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ make autonomous && make clean
+gcc -c -o main_autonomous.o main_autonomous.c -I.
+gcc -c -o board.o board.c -I.
+gcc -c -o file_parser.o file_parser.c -I.
+gcc -c -o game.o game.c -I.
+gcc -c -o cli_parser.o cli_parser.c -I.
+gcc -o autonomous main_autonomous.o board.o file_parser.o game.o cli_parser.o -I.
+rm -f *.o *~
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ make autonomous && make clean
+gcc -c -o main_autonomous.o main_autonomous.c -I.
+gcc -c -o board.o board.c -I.
+gcc -c -o file_parser.o file_parser.c -I.
+gcc -c -o game.o game.c -I.
+gcc -c -o cli_parser.o cli_parser.c -I.
+gcc -o autonomous main_autonomous.o board.o file_parser.o game.o cli_parser.o -I.
+rm -f *.o *~
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ make autonomous && make clean
+gcc -c -o main_autonomous.o main_autonomous.c -I.
+gcc -c -o board.o board.c -I.
+gcc -c -o file_parser.o file_parser.c -I.
+gcc -c -o game.o game.c -I.
+gcc -c -o cli_parser.o cli_parser.c -I.
+gcc -o autonomous main_autonomous.o board.o file_parser.o game.o cli_parser.o -I.
+rm -f *.o *~
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+Segmentation fault
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons: 
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons:
+Position x:1, y:12
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe  phase=movement  ../boards/board04.txt test1.txt
+Found our movable amazons:
+Position x:1, y:12

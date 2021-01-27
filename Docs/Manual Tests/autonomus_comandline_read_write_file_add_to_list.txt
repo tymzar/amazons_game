@@ -1,0 +1,140 @@
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe name
+GROUP_E
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe placement 2
+Incorrect first parameter. Expected 'phase' but got 'placement' 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement
+Not enough parameters 
+Program failed to read amount of amazons
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement 3
+Invalid second parameter. Expected 'amazons' but got '3' 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement amazons=3
+Insufficient amount of parameters 
+Please make sure that input and output filenames are provided
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement amazons=3 ../myamazon/boards/output.txt ../myamazon/boards/end.txt
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement amazons=3 ../myamazon/boards/output.txt ../myamazon/boards/end.txt
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement amazons=3 ../myamazon/boards/end.txt ../myamazon/boards/output.txt
+Cannot open game state file "../myamazon/boards/end.txt" 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement amazons=3 ../myamazon/boards/output.txt ../myamazon/boards/output.txt
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../myamazon/boards/output.txt ../myamazon/boards/1.txt
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../myamazon/boards/output.txt ../myamazon/boards/1.txt 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./ phase=movement boa.docx out.pdf
+autonomous.exe   interactive.exe
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../
+.git/       .gitignore  .vscode/    boards/     Docs/       myamazon/   README.md   Source/
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../
+.git/       .gitignore  .vscode/    boards/     Docs/       myamazon/   README.md   Source/
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../myamazon/
+boards/   main.exe
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../myamazon/boards/output.txt ../myamazon/boards/1.txt
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../myamazon/boards/output.txt 1.txt
+
+
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/myamazon (master)
+$ ./main phase=movement boards/output.txt out.txt
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/myamazon (master)
+$ ./main phase=movement boards/output.txt out.txt
+Cant move any amazon 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/myamazon (master)
+$ ./autonomous.exe phase=movement output.txt 1.txt^C
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/myamazon (master)
+$ ^C
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/myamazon (master)
+$ cd ..
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons (master)
+$ cd Source/
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../boards/
+0.txt            11.txt           14.txt           17.txt           2.txt            4.txt            7.txt            board01.txt      board04.txt      board07.txt      outputboard.txt  
+1.txt            12.txt           15.txt           18.txt           20.txt           5.txt            8.txt            board02.txt      board05.txt      board08.txt      
+10.txt           13.txt           16.txt           19.txt           3.txt            6.txt            9.txt            board03.txt      board06.txt      board09.txt
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../boards/0.txt ../boards/test.txt
+Cant move any amazon 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../boards/5.txt ../boards/test.txt
+Cant move any amazon 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../boards/7.txt ../boards/test.txt
+Cant move any amazon 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../boards/20.txt ../boards/test.txt
+Cant move any amazon 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../boards/board01.txt ../boards/test.txt
+Cant move any amazon 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../boards/board02.txt ../boards/outputboard.txt
+Cant move any amazon 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../boards/board03.txt ../boards/outputboard.txt
+Cant move any amazon 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=movement ../boards/board09.txt ../boards/outputboard.txt
+Cant move any amazon 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement ../boards/board09.txt ../boards/outputboard.txt
+Invalid second parameter. Expected 'amazons' but got '../boards/board09.txt' 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement amazons=3 ../boards/board09.txt ../boards/outputboard.txt
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement amazons=3 ../boards/board09.txt ../boards/test.txt
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement amazons=2 ../boards/test.txt ../boards/1.txt
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement amazons=1 ../boards/test.txt ../boards/1.txt
+cant place more amazons, limit exceeded 
+
+tymon@DESKTOP-EGP0A6P MINGW64 ~/OneDrive/Dokumenty/dev/epfu20w-104-E-amazons/Source (master)
+$ ./autonomous.exe phase=placement amazons=3 ../boards/test.txt ../boards/1.txt
